@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body
+{
+    background-image: url(../img/T035_generated.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* header style set start  */
+#header
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.header .box-h1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.header .box-h1 h1
+{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: .4rem;
+}
+
+.header .box-h1 h2
+{
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .4rem;
+}
+
+.header .box-h1 h3
+{
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .2rem;
+}
+
+.header .box-h2 ul
+{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.header .box-h2 ul li 
+{
+    list-style: none;
+    margin: 2rem 1.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    cursor: pointer;
+}
+
+.header .box-h3
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.header .box-h3 input
+{
+    font-size: 1rem;
+    width: 15rem;
+    background: rgb(67, 65, 65);
+    border-top-left-radius: 15rem;
+    border-bottom-left-radius: 15rem;
+    padding: .2rem;
+    border: none; color: white;
+    outline: none;
+}
+
+.header .box-h3 input::placeholder
+{
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.header .box-h3 ion-icon
+{
+    color: white;
+    background: rgb(67, 65, 65);
+    font-size: 1.2rem;
+    padding: .35rem;
+    border: none;
+    border-top-right-radius: 15rem;
+    border-bottom-right-radius: 15rem;
+}
+/* header style set end  */
+
+/* content style set start */
+#content
+{
+    display: flex;
+    justify-content:space-around;
+    justify-items: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+#content .box-c1
+{
+    max-width: 30rem;
+    text-align: justify;
+    letter-spacing: .1rem;
+}
+
+#content .box-c1 h2
+{
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+}
+
+#content .box-c1 h3
+{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: .5rem;
+}
+
+#content .box-c1 p
+{
+    margin: 1rem 0;
+}
+
+#content .box-c1 .btn1
+{
+    background: rgb(67, 65, 65);
+    color: white;
+    padding: 0.3rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+#content .box-c1 .btn1:hover
+{
+    background: rgba(67, 65, 65, 0.913);
+    cursor: pointer;
+}
+
+#content .box-c2 img
+{
+    border-radius: 50%;
+    border: .5rem solid rgb(67, 65, 65);
+}
+
+#content .box-c2 .circle1
+{
+    position: absolute;
+    left: 50%;top: 55%;
+    width: 10rem;
+    height: 10rem;
+    background: yellow;
+    border-radius: 50%;
+}
+
+
+#content .box-c2 .circle2
+{
+    position: absolute;
+    left: 50.5%;top: 56%;
+    width: 9rem;
+    height: 9rem;
+    background: yellow;
+    border: .3rem dashed rgb(67, 65, 65);
+    border-radius: 50%;
+    text-align: center;
+}
+
+#content .box-c2 h1
+{
+    position: absolute;
+    width: 2rem;
+    left: 53.3%;top: 59%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+/* content style set end */
